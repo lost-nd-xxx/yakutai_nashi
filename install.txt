@@ -1,0 +1,6 @@
+charset,UTF-8
+type,ghost
+name,益体無しの人生だった
+directory,i_was_useless
+refresh,0
+

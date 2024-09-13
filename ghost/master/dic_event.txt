@@ -1,0 +1,204 @@
+﻿＃イベント等
+
+＊OnNotifyUserInfo
+＄ユーザ名	\_?（R0）\_?
+
+
+＊OnSatoriLoad
+＄単語群「おみくじ結果事象」の重複回避	有効
+＄単語群「おみくじ結果行動」の重複回避	有効
+
+
+＊OnInstallBegin
+か：なんか来たよ～。今から開けるね。
+
+
+＊OnInstallComplete
+か：\_?[ （R1） / （R0） ]\_?……だって。
+＞インストール後切り替えるか（R0）
+
+
+＊インストール後切り替えるかghost
+で：
+＿切り替える	script:"\![change,ghost,lastinstalled]"
+＿呼び出す　	script:"\![call,ghost,lastinstalled]"
+＿何もしない	メニュー閉じる
+
+
+＊インストール後切り替えるかghost with balloon
+で：
+＿切り替える	script:"\![change,ghost,lastinstalled]"
+＿呼び出す　	script:"\![call,ghost,lastinstalled]"
+＿何もしない	メニュー閉じる
+
+
+＊インストール後切り替えるかshell
+で：
+＿切り替える	script:"\![change,shell,lastinstalled]"
+＿何もしない	メニュー閉じる
+
+
+＊インストール後切り替えるかshell with balloon
+で：
+＿切り替える	script:"\![change,shell,lastinstalled]"
+＿何もしない	メニュー閉じる
+
+
+＊インストール後切り替えるかballoon
+で：
+＿切り替える	script:"\![change,balloon,lastinstalled]"
+＿何もしない	メニュー閉じる
+
+
+＊OnInstallFailure
+か：開けらんなかった。
+「\_?（Ｒ０）\_?」みたい。
+
+
+＊OnInstallRefuse
+か：誤配かな？
+『\_?（Ｒ０）\_?』さん宛てみたい。
+
+
+＊OnShellChanging
+か：着替えてくるよ～。
+
+
+＊OnShellChanged
+か：どうかな。
+あ：どうだろうな。
+
+
+＊OnUpdateBegin
+か：新着チェック～～。
+
+
+＊OnUpdateReady
+か：新着あったっぽい。
+
+
+＊OnUpdateComplete
+＞ネットワーク更新（Ｒ０）
+か：チェック完了～。
+
+
+＊OnUpdateFailure
+＞ネットワーク更新（Ｒ０）
+か：失敗。
+理由は\_?（Ｒ０）\_?みたい。
+
+
+＊ネットワーク更新none
+か：新着なし、っと。
+
+
+＊OnSNTPBegin
+か：\_q\_?（Ｒ０）\_?とこっちの時計を比べてみるねφ。\_q
+
+
+＊OnSNTPCompare
+か：\_q取得した時間　（Ｒ１）
+この端末　　　（Ｒ２）\_q
+＞時計のずれが（Ｒ３）秒
+（Ｒ３）秒ずれてるね。合わせる？
+で：
+＿合わせる　	時計合わせ合わせる
+＿合わせない	時計合わせ合わせない
+
+
+＊時計合わせ合わせる
+か：\6合わせたよ～。
+＃ \6は時刻を修正する「さくらスクリプト」
+
+
+＊時計合わせ合わせない
+か：じゃ、放っとくね。
+
+
+＊時計のずれが0秒
+か：ぴったり合ってる～。
+
+
+＊時計のずれが1秒
+か：\_l[0,0]（Ｒ３）秒ずれてるけど……、誤差かも。
+で：
+＿合わせる　	時計合わせ合わせる
+＿合わせない	時計合わせ合わせない
+
+
+＊時計のずれが2秒
+＞時計のずれが1秒
+
+
+＊時計のずれが3秒
+＞時計のずれが1秒
+
+
+＊OnSNTPCorrect
+か：合わせたよ～。
+
+
+＊OnSNTPFailure
+か：時計合わせ失敗……。
+
+
+＊OnUpdatedataCreating
+か：おん・あっぷでーと・でーた・くりえいてぃんぐ……
+
+
+＊OnUpdatedataCreated
+か：おん・あっぷでーと・でーた・くりえいてぃっど。
+
+
+＊OnNarCreating
+か：な～・くりえいてぃんぐ……
+
+
+＊OnNarCreated
+か：な～・くりえいてぃっど。
+
+
+＊OnVanishSelecting
+か：（８）もう会えない、って？
+
+
+＊OnVanishCancel
+あ：（１３）まだカプセルトイを引く気か。
+か：（２）こらアキ、そんな事言わないの。
+（５）（ユーザ名）さん、これからもよろしく。
+
+
+＊OnVanishButtonHold
+＞OnVanishCancel
+
+
+＊OnVanishSelected
+か：（８）お別れですね。さびしい。
+あ：お前の寂しさを押し付けるな。
+か：（３）むー。
+あ：じゃあな、（ユーザ名）。
+か：……（５）（ユーザ名）さん、元気でね！\w9\w9\w9\w9
+
+
+＊OnKeyPress
+＞（Ｒ０）が押された
+
+
+＊rが押された
+＄辞書リロード	実行
+か：リロードしたよ～。
+
+
+＊OnURLDropping
+か：なんか来た。
+\_q（Ｒ０）\_qからダウンロード中だよ。
+
+
+＊OnURLDropped
+か：ダウンロードしゅーりょー。
+ファイルは\_q（Ｒ０）\_qにあるみたい。
+
+
+＊OnSystemDialogCancel
+＞（R1）Cancel	（変数「R1」の存在）==1
+

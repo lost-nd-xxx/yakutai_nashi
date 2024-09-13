@@ -1,0 +1,75 @@
+﻿＃トーク関連
+
+＊OnTranslate
+＄_script	（R0）
+＄_script	（vncall,replace,_script,ontr_b1,ontr_a1）
+＄_script	（vncall,replace,_script,ontr_b2,ontr_a2）
+＄_script	（vncall,replace,_script,ontr_b3,ontr_a3）
+（_script）
+＄_script	
+
+＠ontr_b1
+\p[2]
+＠ontr_a1
+\0\s[0]\f[color,default]
+＠ontr_b2
+\p[3]
+＠ontr_a2
+\0（文字色変更カプト）
+＠ontr_b3
+\p[4]
+＠ontr_a3
+\0（文字色変更アキ）
+
+
+＊OnTalk
+＄_tmp	（when、（単語群「（特殊対応中）タイトル」の存在）==1、（set、返信ヘッダ「Marker」、（（特殊対応中）タイトル）））
+＞（Ｒ１）	（Ｒ０）
+＞OnTalkガチャ演出飛ばす	（equal,（ガチャ演出スキップ）,有効）
+で：\0\b[-1]\s[0]\i[20,wait]\_w[1000]（）
+
+＊OnTalkガチャ演出飛ばす
+で：\0\s[0]\i[20]（）
+
+
+＊tが押された
+＞OnTalk
+
+
+＠文字色変更カプト
+\f[color,（文字色カプト）]
+＠文字色変更アキ
+\f[color,（文字色アキ）]
+
+
+＠０
+\i[0]
+＠１
+\i[1]
+＠２
+\i[2]
+＠３
+\i[3]
+＠４
+\i[4]
+＠５
+\i[5]
+＠６
+\i[6]
+＠７
+\i[7]
+＠８
+\i[8]
+＠９
+\i[9]
+＠１０
+\i[10]
+＠１１
+\i[11]
+＠１２
+\i[12]
+＠１３
+\i[13]
+＠１４
+\i[14]
+
