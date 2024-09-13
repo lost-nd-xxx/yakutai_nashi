@@ -2,6 +2,9 @@
 .github
 .gitignore
 .gitmodules
+readme.md
+ReadMe.md
+README.md
 updates.txt
 updates2.dau
 
@@ -17,8 +20,15 @@ var/
 __MACOSX/
 XtraStuf.mac/
 
+
 /developer_options.txt
 /md5buildignore.txt
 
 *.log
+
+/.github/
+/docs/
+LICENCE.md
+ghost/master/satori_savedata.txt
+ghost/master/satori_savebackup.txt
 
