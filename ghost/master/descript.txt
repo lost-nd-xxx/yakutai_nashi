@@ -12,7 +12,6 @@ kero.name,アキ
 icon,gacha_icon.ico
 shiori,satori.dll
 
-readme,readme.md
 readme.charset,UTF-8
 
 homeurl,https://raw.githubusercontent.com/lost-nd-xxx/yakutai_nashi/main/
