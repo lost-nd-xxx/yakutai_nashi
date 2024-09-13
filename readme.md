@@ -1,6 +1,9 @@
 # ゴースト「益体無しの人生だった」
 ![image](thumbnail.png)
 
+## ダウンロード
+* [i_was_useless.nar](https://github.com/lost-nd-xxx/yakutai_nashi/releases/latest/download/i_was_useless.nar)
+
 ## これはなに
 ゴーストという種類のデータセットです。
 動かすには、「SSP」というソフトを使うのがおすすめです。
