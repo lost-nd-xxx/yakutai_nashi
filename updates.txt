@@ -3,7 +3,7 @@ file,ghost/master/characters.ini4db4dc76b1eaedb34e94f7bcccda012asize=168date=
 file,ghost/master/descript.txtfc7b820f9c44e594903db6a04645b4d2size=316date=2012-12-21T00:00:00
 file,ghost/master/dic_bootend.txt7b0359a92df37c94a80fa4a8c73f5a3fsize=811date=2012-12-21T00:00:00
 file,ghost/master/dic_event.txt9082136b4adf8a44246f21a1efb9f912size=4450date=2012-12-21T00:00:00
-file,ghost/master/dic_menu.txte57863d2b033805f936f59bb52da6781size=3031date=2012-12-21T00:00:00
+file,ghost/master/dic_menu.txtd2ba72076d55b32e548e2a956f81f9ddsize=3062date=2012-12-21T00:00:00
 file,ghost/master/dic_mouse.txtf4bd4725d7c157c7b582c4956dba6fb6size=4106date=2012-12-21T00:00:00
 file,ghost/master/dic_omikuji.txt1138b6d0c2620f77852f49e6f3f041aesize=2959date=2012-12-21T00:00:00
 file,ghost/master/dic_talk_ordinary.txt40962b4eed4f84c9e3a357d39a3b8dd3size=9296date=2012-12-21T00:00:00
