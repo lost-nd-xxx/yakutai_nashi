@@ -3,7 +3,7 @@ file,ghost/master/characters.ini4db4dc76b1eaedb34e94f7bcccda012asize=168date=
 file,ghost/master/descript.txtfc7b820f9c44e594903db6a04645b4d2size=316date=2012-12-21T00:00:00
 file,ghost/master/dic_bootend.txt7b0359a92df37c94a80fa4a8c73f5a3fsize=811date=2012-12-21T00:00:00
 file,ghost/master/dic_event.txt9082136b4adf8a44246f21a1efb9f912size=4450date=2012-12-21T00:00:00
-file,ghost/master/dic_menu.txtd2ba72076d55b32e548e2a956f81f9ddsize=3062date=2012-12-21T00:00:00
+file,ghost/master/dic_menu.txt99c3ec2d00ac2341d381f04ae35f2eebsize=3080date=2012-12-21T00:00:00
 file,ghost/master/dic_mouse.txtf4bd4725d7c157c7b582c4956dba6fb6size=4106date=2012-12-21T00:00:00
 file,ghost/master/dic_omikuji.txt1138b6d0c2620f77852f49e6f3f041aesize=2959date=2012-12-21T00:00:00
 file,ghost/master/dic_talk_ordinary.txt40962b4eed4f84c9e3a357d39a3b8dd3size=9296date=2012-12-21T00:00:00
@@ -13,7 +13,7 @@ file,ghost/master/gacha_icon.ico883b7f8e0caf9702fd72f69d847102a3size=318date=
 file,ghost/master/replace_after.txt024c69b90fbc83b8c2a3ae42c9a0016asize=119date=2012-12-21T00:00:00
 file,ghost/master/satori.dllc000c274dfaf1abba8bad0a8b17e2f28size=716800date=2012-12-21T00:00:00
 file,ghost/master/satori_bootconf.txt555e4cd1e4db8d2913c3eb486cb43dd9size=18date=2012-12-21T00:00:00
-file,ghost/master/satori_conf.txt5540c4968bf277c15c08b8abf2a63563size=776date=2012-12-21T00:00:00
+file,ghost/master/satori_conf.txt4832e9322853fd75cb2063fce4f12615size=785date=2012-12-21T00:00:00
 file,install.txted607d619a3f7a561b7922860a6b8dcfsize=96date=2012-12-21T00:00:00
 file,readme.txtaab76d6488fd2de0f5c58fd69f69c68asize=3793date=2012-12-21T00:00:00
 file,shell/master/atari1.png6e99bc67b11fd630db6a592b5cc54cffsize=2133date=2012-12-21T00:00:00
